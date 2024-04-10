@@ -1036,7 +1036,7 @@ b, strong {
 /* Sticky column */
 .sticky-wrap {
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 0;
   opacity: 0;
   z-index: 1;
@@ -6772,8 +6772,9 @@ header .header-top-bar [class*=col-] .header-icon {
 }
 header .navbar {
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 32px;
+  right: 0px;
+  background: #e5eff3 !important;
   left: 0;
   z-index: 99;
 }
@@ -7009,7 +7010,7 @@ header .navbar-brand .alt-logo, header .navbar-brand .mobile-logo {
   width: 0;
 }
 header .navbar-brand img {
-  max-height: 46px;
+  max-height: 67px;
 }
 header .header-top-bar {
   position: fixed;
@@ -7112,6 +7113,7 @@ header.sticky .navbar.disable-fixed {
   position: relative;
   font-weight: 500;
   opacity: 1;
+  color: #fff;
   word-break: normal;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -7631,7 +7633,7 @@ header.sticky .navbar.disable-fixed {
 }
 /* Header light */
 .header-light .navbar-nav .nav-link {
-  color: var(--dark-gray);
+  color: #16202c;
 }
 .header-light .header-icon .icon > a {
   color: var(--dark-gray);
@@ -9024,6 +9026,19 @@ button:focus {
 }
 .header-with-topbar + .top-space-margin {
   margin-top: 136px;
+}
+/* .mtop {
+  margin-top: 30px;
+} */
+.Free_delivery {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0px 42px;
+}
+.cust_serv {
+  font-size: 13px;
+  color: var(--dark-gray);
+  font-weight: 600;
 }
 .header-with-topbar + .top-space-padding {
   padding-top: 136px;
@@ -10949,6 +10964,10 @@ blockquote footer {
   position: absolute;
   top: 4px;
   left: 0;
+}
+.center_image {
+  border: 13px solid #fff;
+    box-shadow: 4px 3px 23px 1px #6a6767;
 }
 .terms-condition-box input[type=checkbox]:checked + .box:after {
   display: block;
@@ -19237,6 +19256,9 @@ footer .footer-navbar .nav-item:last-child a {
 margin-top: 300px;
 margin-bottom: 10px;
   }
+  .Free_delivery {
+    display: none !important;
+  }
 }
 /*.pb-3.position-relative.overflow-hidden.container{
   transform: translateY(50px);
@@ -19351,6 +19373,9 @@ text-align: justify;
 @media only screen and (min-width:600px){
   .blog-text{
     padding: 20px;
+  }
+  .Free_delivery {
+    display: none;
   }
 }
 .blogpara{

@@ -8,11 +8,12 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta name="description" content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 48+ ready demos."> 
         <!-- favicon icon -->
-        <link rel="shortcut icon" href="images/blackLogo.png">
+        <!-- <link rel="shortcut icon" href="images/blackLogo.png">
         <link rel="apple-touch-icon" href="images/blackLogo.png">
         <link rel="apple-touch-icon" sizes="72x72" href="images/blackLogo.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="images/blackLogo.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/blackLogo.png"> -->
         <!-- google fonts preconnect -->
+        
         <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <!-- slider revolution CSS files -->
@@ -25,9 +26,11 @@
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/responsive.css"/>
         <link rel="stylesheet" href="demos/decor-store/decor-store.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     
     <body data-mobile-nav-style="classic">
+        
 <!-- Load Google Maps API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 
@@ -51,8 +54,32 @@
             });
         }
     </script>
+
+        <div class="row">
+            <div class="col-md-6 Free_delivery">
+                <p>Free Delivery on orders over Rs/-10,000. Don't miss discount. <a href="#">Shopnow</a> </p>
+            </div>
+            <div class="col-md-2 ">
+                <!-- <p>Free Delivery on orders over £120. Don't miss discount. <a href="#">Shopnow</a> </p> -->
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-4 cust_serv">
+                        <p><i class="fa-solid fa-phone"></i><span style="margin-left: 7px;">Customer service</span></p>
+
+                    </div>
+                    <div class="col-md-4 cust_serv">
+                        <p><i class="fa-solid fa-location-pin"></i> <span style="margin-left: 7px;">Find our store</span></p>
+                    </div>
+                    <div class="col-md-3 cust_serv">
+                        <p><i class="fa-solid fa-globe"></i> <span style="margin-left: 7px;">English</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
         <!-- start header -->
-        <header class="header-with-topbar">
+        <header class="header-with-topbar mtop">
           
             <!-- start navigation -->
             <nav class="navbar navbar-expand-lg header-light bg-transparent disable-fixed" data-header-hover="light">
@@ -137,7 +164,7 @@
                                      data-basealign="slide"
                                      data-responsive_offset="on"
                                      data-responsive="on">
-                                    <img src="Photos/Home/Home - section 1.jpg" alt="background-pattern" data-ww="100%" data-hh="auto"  style="opacity: 0.7;">
+                                    <!-- <img src="Photos/Home/Home - section 1.jpg" alt="background-pattern" data-ww="100%" data-hh="auto"  style="opacity: 0.7;"> -->
                                 </div>
                                 <!-- end background pattern image layer -->
                                 <!-- start mobile background pattern image layer -->
@@ -178,7 +205,7 @@
                                      data-basealign="slide"
                                      data-responsive_offset="on"
                                      data-responsive="on">
-                                    <img src="Photos/Home/Home - section 1.jpg" alt="background-pattern" data-ww="100%" data-hh="auto"  style="opacity: 0.7;">
+                                    <img src="Photos/Home/home_img.jpg" alt="background-pattern" data-ww="100%" data-hh="auto"  style="opacity: 0.7;">
                                 </div>
                                 <!-- end product image layer -->
                                 <!-- start row zone -->
@@ -259,7 +286,7 @@
                                                  data-paddingright="[0,0,200,0]"
                                                  data-paddingbottom="[0,0,0,0]"
                                                  data-paddingleft="[0,0,200,0]">
-                                                 Star Bags
+                                                 Star <br> Bags
                                             </div>
                                             <!-- end title  layer -->
                                             <!-- start subtitle layer -->
@@ -465,7 +492,7 @@
                                          data-frames='[{"delay":2600,"speed":1000,"sfxcolor":"#ffffff","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                          data-textAlign="['center','center','center','center']"
                                          data-basealign="grid"
-                                         style="border: none; background-image: url(decorimage/demo-decor-store-slider-02-img-04.png);">
+                                         style="border: none; background-image: url('');">
                                     </div>
                                     <!-- end slider thumb layer -->
                                 </div>
@@ -1016,7 +1043,7 @@
                                                  data-paddingright="[0,0,200,0]"
                                                  data-paddingbottom="[0,0,0,0]"
                                                  data-paddingleft="[0,0,200,0]">
-                                                Lewis sofas
+                                                Start <br> Bags
                                             </div>
                                             <!-- end title  layer -->
                                             <!-- start subtitle layer -->
@@ -1301,7 +1328,7 @@
                         <img class="w-100" src="images/silder.png" alt="">
                     </div>
                     <div class="col-md-6 text-center" data-bottom-top="transform: translateY(80px)" data-top-bottom="transform: translateY(-80px)">
-                        <img class="w-100" src="images/centerphoto.png" alt="">
+                        <img class="w-100 center_image" src="images/centerphoto.png" alt="">
                     </div>
                     <div class="col-md-3 text-center p-4 md-p-15px" data-bottom-top="transform: translateY(-80px)" data-top-bottom="transform: translateY(80px)">
                         <img class="w-100" src="images/silder.png" alt="">
@@ -1626,35 +1653,18 @@
         <!-- start footer -->
         <footer class="footer-dark bg-dark-gray pb-0 pt-0 cover-background" style="background-image:url('images/demo-decor-store-footer-bg.jpg')">
             <div class="container pt-4 pb-4 md-pt-45px md-pb-45px">
-                <div class="row justify-content-center">
+                <div class="row ">
                     <!-- start footer column -->
-                    <div class="col-6 col-lg-3 last-paragraph-no-margin order-sm-1 md-mb-50px xs-mb-30px">
-                        <a href="index.html" class="footer-logo mb-15px d-inline-block"><img src="images/Star_Bags_Logo.png" data-at2x="images/Star_Bags_Logo.png" alt=""></a>
+                    <div class="col-md-3 col-lg-3 last-paragraph-no-margin order-sm-1 md-mb-50px xs-mb-30px">
+                        <a href="index.html" class="footer-logo mb-15px d-inline-block"><img src="images/Star_Bags_Logo.png" data-at2x="images/Star_Bags_Logo.png" alt="" style="width: 191px"></a>
                         <p class="w-80 sm-w-100">Thank you for visiting our website. Stay connected with us for the latest updates, promotions, and
                             news by subscribing to our newsletter !!</p>
-                        <div class="elements-social social-icon-style-02 mt-15px">
-                            <ul class="small-icon light">
-                                <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="bi bi-linkedin"></i>                      </a></li> 
-                                <li><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li> 
-                                <li><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li> 
-                            </ul>
-                        </div>
+                        
                     </div>
                     <!-- end footer column -->
-                    <!-- start footer column --
-                    <div class="col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
-                        <span class="fs-16 alt-font fw-500 d-block text-white mb-5px">Categories</span>
-                        <ul>
-                            <li><a href="demo-decor-store-shop.html">Bed room</a></li>
-                            <li><a href="demo-decor-store-shop.html">Living room</a></li>
-                            <li><a href="demo-decor-store-shop.html">Lightning</a></li>
-                            <li><a href="demo-decor-store-shop.html">Fabrics sofa</a></li>
-                        </ul>
-                    </div>
-                    <!-- end footer column -->
+                    
                     <!-- start footer column -->
-                    <div class="col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
+                    <div class="col-md-3 col-lg-2 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
                         <span class="fs-16 alt-font fw-500 d-block text-white mb-5px">Quick Link</span>
                         <ul>
                             <li><a href="index.html">Home</a></li>
@@ -1666,19 +1676,9 @@
                         </ul>
                     </div>
                     <!-- end footer column -->
-                    <!-- start footer column --
-                    <div class="col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
-                        <span class="fs-16 alt-font fw-500 d-block text-white mb-5px">Account</span>
-                        <ul>
-                            <li><a href="demo-decor-store-account.html">My account</a></li>
-                            <li><a href="demo-decor-store-cart.html">Orders</a></li>
-                            <li><a href="demo-decor-store-checkout.html">Checkout</a></li>
-                            <li><a href="#">My wishlists</a></li>
-                        </ul>
-                    </div>
-                    <!-- end footer column -->  
+                     
                     <!-- start footer column -->
-                    <div class="col-lg-3 col-sm-6 ps-20px sm-ps-15px md-mb-50px xs-mb-0 order-sm-2 order-lg-5">
+                    <div class="col-md-4 col-sm-6 ps-20px sm-ps-15px md-mb-50px xs-mb-0 order-sm-2 order-lg-5">
                         <span class="fs-16 alt-font fw-500 d-block text-white mb-5px">Newsletter</span>
                         <div class="mb-20px">Get everything you need succeed!</div>
                         <div class="d-inline-block w-100 newsletter-style-02 position-relative mb-15px"> 
@@ -1690,11 +1690,26 @@
                             </form>
                         </div>
                         <div class="footer-card">
-                            <a href="#" class="d-inline-block me-5px align-middle"><img src="https://via.placeholder.com/55x20" alt=""></a>
-                            <a href="#" class="d-inline-block me-5px align-middle"><img src="https://via.placeholder.com/55x20" alt=""></a>
-                            <a href="#" class="d-inline-block me-5px align-middle"><img src="https://via.placeholder.com/55x20" alt=""></a>
-                            <a href="#" class="d-inline-block me-5px align-middle"><img src="https://via.placeholder.com/55x20" alt=""></a>
+                            <a href="#" class="d-inline-block me-5px align-middle"><img src="images/demo-decor-store-payment-icon-01.png" alt=""></a>
+                            <a href="#" class="d-inline-block me-5px align-middle"><img src="images/demo-decor-store-payment-icon-02.png" alt=""></a>
+                            <a href="#" class="d-inline-block me-5px align-middle"><img src="images/demo-decor-store-payment-icon-03.png" alt=""></a>
+                            <a href="#" class="d-inline-block me-5px align-middle"><img src="images/demo-decor-store-payment-icon-04.png" alt=""></a>
                         </div>
+                    </div>
+                    <!-- end footer column --> 
+                    <!-- start footer column -->
+                    <div class="col-md-2 col-sm-6 ps-20px sm-ps-15px md-mb-50px xs-mb-0 order-sm-2 order-lg-5">
+                        <span class="fs-16 alt-font fw-500 d-block text-white mb-5px">Media</span>
+                        <!-- <div class="mb-20px">Get everything you need succeed!</div> -->
+                        <div class="elements-social social-icon-style-02 mt-15px">
+                            <ul class="small-icon light">
+                                <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="bi bi-linkedin"></i>                      </a></li> 
+                                <li><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li> 
+                                <li><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li> 
+                            </ul>
+                        </div>
+                        
                     </div>
                     <!-- end footer column -->                        
                 </div>
@@ -1718,6 +1733,8 @@
             </div>
         </footer>
         <!-- end footer -->
+
+        
         <!-- start cookie message -->
         <div id="cookies-model" class="cookie-message bg-dark-gray border-radius-8px"> 
             <div class="cookie-description fs-14 text-white mb-20px lh-22">We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Allow cookies" you consent to our use of cookies. </div>   
