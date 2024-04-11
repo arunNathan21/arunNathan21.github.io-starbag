@@ -9815,6 +9815,12 @@ blockquote footer {
     margin-left: -6vw;
   }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 485px){
+  .Free_delivery {
+    display: none !important;
+  }
+}
 /* Button */
 .btn-box-shadow {
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -19256,9 +19262,7 @@ footer .footer-navbar .nav-item:last-child a {
 margin-top: 300px;
 margin-bottom: 10px;
   }
-  .Free_delivery {
-    display: none !important;
-  }
+  
 }
 /*.pb-3.position-relative.overflow-hidden.container{
   transform: translateY(50px);
@@ -19374,9 +19378,7 @@ text-align: justify;
   .blog-text{
     padding: 20px;
   }
-  .Free_delivery {
-    display: none;
-  }
+  
 }
 .blogpara{
   padding-left: 0px;

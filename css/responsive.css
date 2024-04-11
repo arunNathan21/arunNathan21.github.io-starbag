@@ -55,6 +55,12 @@
     padding-top: 95px;
     padding-bottom: 95px;
   }
+  .Free_delivery {
+    display: none !important;
+  }
+  .cust_serv {
+    display: none;
+  }
   section.extra-big-section {
     padding-top: 110px;
     padding-bottom: 110px;
